@@ -1,0 +1,14 @@
+pin=1234 
+c=0 
+while True: 
+    p=int(input('enter pin')) 
+    c=c+1 
+    if p==pin: 
+      print('welcome to banking services') 
+      break; 
+    if c<4: 
+      print('invalid pin ,pending attempts ',3-c) 
+    else: 
+      print('pin blocked') 
+
+
